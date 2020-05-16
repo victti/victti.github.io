@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    align-items: center;
+    background-image: url("../img/stars.png");
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+.div-info-container {
+    background-color: #FFFFFF44;
+    border-radius: 5%;
+    border: 1px solid #fff;
+    padding: 15px;
+    width: 40%;
+}
+
+.div-info {
+    margin: 20px;
+}
+
+.div-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.div-body {
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+
+.orange {
+    color: #1ffa81;
+    display: inline;
+}
+
+.underline {
+    text-decoration: underline;
+}
