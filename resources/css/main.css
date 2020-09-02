@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 html, body, .div-body-container {
-    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
+    width: 100%;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: #181b1d;
+    color: #fffbfa;
 }
 
 .div-header {
@@ -36,6 +37,15 @@ body {
 
 .div-header .div-menus {
     font-size: 1.4rem;
+}
+
+.div-header .div-menus a {
+    color: #fffbfa;
+    text-decoration: none;
+}
+
+.div-header .div-menus a:hover {
+    text-decoration: underline;
 }
 
 .div-menu {
