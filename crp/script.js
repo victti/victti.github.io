@@ -117,13 +117,6 @@ function VilosPlayer() {
         // Ads Patch
         d.media['ad_breaks'] = [];
 
-        //console.log(d.media.metadata);
-        // var loop;
-        // for(loop = 0; loop < d.media['streams'].length; loop++)
-        // {
-        //     d.media['streams'][loop]['url'] = d.media['streams'][loop]['url'].replace("clipTo/120000/", "clipTo/180000/");
-        // }
-
         console.log(d);
 
 		document.domain = document.domain, h({
