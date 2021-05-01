@@ -117,7 +117,12 @@ function VilosPlayer() {
         // Ads Patch
         d.media['ad_breaks'] = [];
 
-        console.log(d);
+		// Premium patch
+		var loop;
+		for(loop = 0; loop < d.media['streams'].length; loop++)
+		{
+			d.media['streams'][loop]['url'] = d.media['streams'][loop]['url'].replace("/clipFrom/0000/clipTo/120000/index.m3u8", "").replace("/clipFrom/0000/clipTo/120000/manifest.mpd", "").replace("https://pl.crunchyroll.com", "https://fy.v.vrv.co");
+		}
 
 		document.domain = document.domain, h({
 			src: b,
