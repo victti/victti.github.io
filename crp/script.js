@@ -121,7 +121,7 @@ function VilosPlayer() {
 		var loop;
 		for(loop = 0; loop < d.media['streams'].length; loop++)
 		{
-			if(d.media['streams'][loop]['url'].contains("clipFrom"))
+			if(d.media['streams'][loop]['url'].includes("clipFrom"))
 				d.media['streams'][loop]['url'] = d.media['streams'][loop]['url'].replace("/clipFrom/0000/clipTo/120000/index.m3u8", "").replace("/clipFrom/0000/clipTo/120000/manifest.mpd", "").replace("https://pl.crunchyroll.com", "https://fy.v.vrv.co");
 		}
 
